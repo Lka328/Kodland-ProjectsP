@@ -1,0 +1,8 @@
+import random
+Contra="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+Longitud=int(input("Ingresa la longitud de la contrasena: "))
+gener=""
+
+for i in range(Longitud):
+    gener+=random.choice(Contra)
+print(f"Esta es tu contrasena: {gener}")
